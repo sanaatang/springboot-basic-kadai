@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>spring_kadai_todo</artifactId>
+	<artifactId>spring_kadai_form</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring_kadai_todo</name>
+	<name>spring_kadai_form</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -70,6 +70,7 @@
 		</dependency>
 	</dependencies>
 
+    
 	<build>
 		<plugins>
 			<plugin>
