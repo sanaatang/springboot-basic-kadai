@@ -16,7 +16,10 @@ import jakarta.validation.Valid;
 public class ContactFormController {
 	
 	@GetMapping("/form")
-    public String showForm(ContactForm contactForm) {
+    public String showForm(Model model) {
+		if (!model.containsAttribute("contactForm")) {
+            model.addAttribute("contactForm", new ContactForm());
+        }
         return "contactFormView";
     }
 
